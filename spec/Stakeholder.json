@@ -1,0 +1,360 @@
+{
+  "columns": [
+    {
+      "field": "id",
+      "headerName": "ID",
+      "editable": true,
+      "width": 150,
+      "order": 0
+    },
+    {
+      "field": "description",
+      "headerName": "Description",
+      "editable": true,
+      "width": 400,
+      "order": 1,
+      "editorType": "text",
+      "defaultValue": "",
+      "align": "left"
+    },
+    {
+      "field": "this_is_a",
+      "headerName": "this_is_a",
+      "editable": true,
+      "width": 200,
+      "valueOptions": [
+        "Context",
+        "Chapter",
+        "Comment",
+        "Functional Requirement",
+        "Non-Functional Requirement",
+        "Security Requirement",
+        "User Interface Requirement",
+        "Flexibility Requirement"
+      ],
+      "editorType": "select",
+      "defaultValue": "None",
+      "order": 2
+    },
+    {
+      "field": "ReqStatus",
+      "headerName": "Requirement Status",
+      "editable": true,
+      "width": 200,
+      "valueOptions": [
+        "Pending",
+        "Approved",
+        "Rejected"
+      ],
+      "editorType": "select",
+      "defaultValue": "Pending",
+      "order": 3
+    },
+    {
+      "field": "ImpStatus",
+      "headerName": "Implementation Status",
+      "editable": true,
+      "width": 200,
+      "valueOptions": [
+        "Not Implemented",
+        "In Progress",
+        "Completed",
+        "Not Aplicable"
+      ],
+      "editorType": "select",
+      "defaultValue": "Not Implemented",
+      "order": 4
+    }
+  ],
+  "rows": [
+    {
+      "ImpStatus": "Not Implemented",
+      "ReqStatus": "Pending",
+      "description": "Power Back door",
+      "id": "REQ-001",
+      "rowOrder": 1,
+      "tempChangeStatus": "unchanged",
+      "this_is_a": "Chapter"
+    },
+    {
+      "ImpStatus": "Not Implemented",
+      "ReqStatus": "Pending",
+      "description": "This is the specification file for automotive feature power back door. This is the stakeholder specificationa nd must follow the pattern As a user, I want to ..",
+      "id": "REQ-002",
+      "rowOrder": 2,
+      "this_is_a": "Context",
+      "tempChangeStatus": "unchanged"
+    },
+    {
+      "ImpStatus": "Not Implemented",
+      "ReqStatus": "Pending",
+      "description": "Chapter:  Openning",
+      "id": "REQ-010",
+      "rowOrder": 3,
+      "tempChangeStatus": "unchanged",
+      "this_is_a": "Chapter"
+    },
+    {
+      "id": "REQ-014",
+      "description": "As a user, I want to open the power back door using the key fob.",
+      "this_is_a": "Functional Requirement",
+      "ReqStatus": "Pending",
+      "ImpStatus": "Not Implemented",
+      "rowOrder": 4,
+      "tempChangeStatus": "unchanged"
+    },
+    {
+      "id": "REQ-016",
+      "description": "As a user, I want to open the power back door using a button inside the vehicle.",
+      "this_is_a": "Functional Requirement",
+      "ReqStatus": "Pending",
+      "ImpStatus": "Not Implemented",
+      "rowOrder": 5,
+      "tempChangeStatus": "unchanged"
+    },
+    {
+      "ImpStatus": "Not Implemented",
+      "ReqStatus": "Pending",
+      "description": "Chapter:  Close",
+      "id": "new-id-1756801081154-i6q4u",
+      "rowOrder": 6,
+      "this_is_a": "Chapter"
+    },
+    {
+      "id": "REQ-015",
+      "description": "As a user, I want to close the power back door using the key fob.",
+      "this_is_a": "Functional Requirement",
+      "ReqStatus": "Pending",
+      "ImpStatus": "Not Implemented",
+      "rowOrder": 7,
+      "tempChangeStatus": "unchanged"
+    },
+    {
+      "id": "REQ-017",
+      "description": "As a user, I want to close the power back door using a button inside the vehicle.",
+      "this_is_a": "Functional Requirement",
+      "ReqStatus": "Pending",
+      "ImpStatus": "Not Implemented",
+      "rowOrder": 8,
+      "tempChangeStatus": "unchanged"
+    },
+    {
+      "ImpStatus": "Not Implemented",
+      "ReqStatus": "Pending",
+      "description": "Chapter:  Notification",
+      "id": "new-id-1756801085976-boiku9",
+      "rowOrder": 9,
+      "this_is_a": "Chapter"
+    },
+    {
+      "id": "REQ-028",
+      "description": "As a user, I want an audible warning before the power back door starts moving.",
+      "this_is_a": "Non-Functional Requirement",
+      "ReqStatus": "Pending",
+      "ImpStatus": "Not Implemented",
+      "rowOrder": 10,
+      "tempChangeStatus": "unchanged"
+    },
+    {
+      "id": "new-id-1756800574356-i89azr",
+      "description": "As a user, I want an audible warning after the power back door stop moving.",
+      "this_is_a": "Non-Functional Requirement",
+      "ReqStatus": "Pending",
+      "ImpStatus": "Not Implemented",
+      "rowOrder": 11,
+      "tempChangeStatus": "unchanged"
+    },
+    {
+      "id": "REQ-024",
+      "description": "As a user, I want to receive a notification when the power back door is fully open",
+      "this_is_a": "Functional Requirement",
+      "ReqStatus": "Pending",
+      "ImpStatus": "Not Implemented",
+      "rowOrder": 12,
+      "tempChangeStatus": "unchanged"
+    },
+    {
+      "id": "new-id-1756801183556-5ansi",
+      "description": "As a user, I want to receive a notification when the power back door is fully closed.",
+      "this_is_a": "Functional Requirement",
+      "ReqStatus": "Pending",
+      "ImpStatus": "Not Implemented",
+      "rowOrder": 13
+    },
+    {
+      "id": "REQ-037",
+      "description": "As a user, I want the power back door to provide visual feedback (e.g., flashing light) during operation.",
+      "this_is_a": "User Interface Requirement",
+      "ReqStatus": "Pending",
+      "ImpStatus": "Not Implemented",
+      "rowOrder": 14
+    },
+    {
+      "ImpStatus": "Not Implemented",
+      "ReqStatus": "Pending",
+      "description": "Chapter: Stop",
+      "id": "new-id-1756801135623-7qu4js",
+      "rowOrder": 15,
+      "this_is_a": "Chapter"
+    },
+    {
+      "id": "REQ-027",
+      "description": "As a user, I want to be able to stop the power back door while it's in motion.",
+      "this_is_a": "Functional Requirement",
+      "ReqStatus": "Pending",
+      "ImpStatus": "Not Implemented",
+      "rowOrder": 16,
+      "tempChangeStatus": "unchanged"
+    },
+    {
+      "id": "REQ-038",
+      "description": "As a user, I want the power back door to have an emergency stop button easily accessible.",
+      "this_is_a": "Functional Requirement",
+      "ReqStatus": "Pending",
+      "ImpStatus": "Not Implemented",
+      "rowOrder": 17
+    },
+    {
+      "ImpStatus": "Not Implemented",
+      "ReqStatus": "Pending",
+      "description": "Chapter: Backup",
+      "id": "new-id-1756801229255-dkn1o7",
+      "rowOrder": 18,
+      "this_is_a": "Chapter"
+    },
+    {
+      "id": "REQ-029",
+      "description": "As a user, I want to be able to manually open the power back door in case of a system failure.",
+      "this_is_a": "Functional Requirement",
+      "ReqStatus": "Pending",
+      "ImpStatus": "Not Implemented",
+      "rowOrder": 19,
+      "tempChangeStatus": "unchanged"
+    },
+    {
+      "id": "new-id-1756800592829-vwk22",
+      "description": "As a user, I want to be able to manually close the power back door in case of a system failure.",
+      "this_is_a": "Functional Requirement",
+      "ReqStatus": "Pending",
+      "ImpStatus": "Not Implemented",
+      "rowOrder": 20,
+      "tempChangeStatus": "unchanged"
+    },
+    {
+      "ImpStatus": "Not Implemented",
+      "ReqStatus": "Pending",
+      "description": "Chapter: Non funcional requirement",
+      "id": "REQ-023",
+      "rowOrder": 21,
+      "tempChangeStatus": "unchanged",
+      "this_is_a": "Chapter"
+    },
+    {
+      "ImpStatus": "Not Implemented",
+      "ReqStatus": "Pending",
+      "description": "Chapter: Safety",
+      "id": "new-id-1756801286091-h64rfs",
+      "rowOrder": 22,
+      "this_is_a": "Chapter"
+    },
+    {
+      "id": "REQ-030",
+      "description": "As a user, I want the door does not open if an object will be touched\n",
+      "this_is_a": "Functional Requirement",
+      "ReqStatus": "Pending",
+      "ImpStatus": "Not Implemented",
+      "rowOrder": 23,
+      "tempChangeStatus": "unchanged"
+    },
+    {
+      "id": "REQ-033",
+      "description": "As a user, I want the power back door to complete stop if it detects an obstruction during opening.",
+      "this_is_a": "Functional Requirement",
+      "ReqStatus": "Pending",
+      "ImpStatus": "Not Implemented",
+      "rowOrder": 24,
+      "tempChangeStatus": "unchanged"
+    },
+    {
+      "id": "new-id-1756800828350-sl473",
+      "description": "As a user, I want the power back door to complete stop if it detects an obstruction during closing.",
+      "this_is_a": "Functional Requirement",
+      "ReqStatus": "Pending",
+      "ImpStatus": "Not Implemented",
+      "rowOrder": 25,
+      "tempChangeStatus": "unchanged"
+    },
+    {
+      "ImpStatus": "Not Implemented",
+      "ReqStatus": "Pending",
+      "description": "Chapter: Cyber security",
+      "id": "new-id-1756801301063-dg1vo6",
+      "rowOrder": 26,
+      "this_is_a": "Chapter"
+    },
+    {
+      "id": "REQ-031",
+      "description": "As a user, I want the power back door just open if keyfob is near the vehicle",
+      "this_is_a": "Functional Requirement",
+      "ReqStatus": "Pending",
+      "ImpStatus": "Not Implemented",
+      "rowOrder": 27,
+      "tempChangeStatus": "unchanged"
+    },
+    {
+      "ImpStatus": "Not Implemented",
+      "ReqStatus": "Pending",
+      "description": "Chapter: Rejected",
+      "id": "new-id-1756801341534-xoqueb",
+      "rowOrder": 28,
+      "this_is_a": "Chapter"
+    },
+    {
+      "id": "REQ-039",
+      "description": "As a user, I want the system to remember my preferred opening height for the power back door.",
+      "this_is_a": "Flexibility Requirement",
+      "ReqStatus": "Rejected",
+      "ImpStatus": "Not Implemented",
+      "rowOrder": 29
+    },
+    {
+      "id": "REQ-040",
+      "description": "As a user, I want the power back door to operate silently.",
+      "this_is_a": "Non-Functional Requirement",
+      "ReqStatus": "Rejected",
+      "ImpStatus": "Not Implemented",
+      "rowOrder": 30
+    },
+    {
+      "id": "REQ-041",
+      "description": "As a user, I want to be warned if the car battery is low and the power back door usage is likely to drain it further.",
+      "this_is_a": "Functional Requirement",
+      "ReqStatus": "Rejected",
+      "ImpStatus": "Not Implemented",
+      "rowOrder": 31
+    },
+    {
+      "id": "REQ-034",
+      "description": "As a user, I want the system to log all power back door operations for diagnostic purposes.",
+      "this_is_a": "Non-Functional Requirement",
+      "ReqStatus": "Rejected",
+      "ImpStatus": "Not Implemented",
+      "rowOrder": 32,
+      "tempChangeStatus": "unchanged"
+    },
+    {
+      "id": "REQ-036",
+      "description": "As a user, I want the system to automatically close the power back door after a period of inactivity.",
+      "this_is_a": "Functional Requirement",
+      "ReqStatus": "Rejected",
+      "ImpStatus": "Not Implemented",
+      "rowOrder": 33,
+      "tempChangeStatus": "unchanged"
+    }
+  ],
+  "uiStyles": {
+    "styleControlColumn": "",
+    "applyToColumn": "",
+    "styles": {}
+  }
+}
